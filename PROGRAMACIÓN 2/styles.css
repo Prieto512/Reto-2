@@ -1,0 +1,22 @@
+body{
+    background-color: #DAFFFB;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #imagen {
+    border: none;
+    width: 40%;
+    cursor: pointer;
+
+  }
+  
+  #imagen.clicked {
+    border: 2px solid red;
+  }
